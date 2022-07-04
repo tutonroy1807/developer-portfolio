@@ -9,7 +9,7 @@ h1{
 .color{
     color:rgb(241, 163, 17);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -33,9 +33,26 @@ section{
     background-repeat: no-repeat;
     
 }
-.dream-big{
-    background-image: url(images.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: right center;
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px yellowgreen;
+    border-radius: 15px;
+    font-weight: 700;
+    
+}
+
+#Full-stack-developer{
+    border-left: 7px solid tomato;
+}
+#baby-web-developer{
+    border-left: 7px solid rgb(132, 13, 243);
+}
+footer p{
+    text-align: center;
+    color:rgb(238, 15, 63);
+    font-size: large;
 }
